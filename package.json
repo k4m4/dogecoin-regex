@@ -1,0 +1,30 @@
+{
+  "name": "dogecoin-regex",
+  "version": "1.0.0",
+  "description": "Regular expression for matching dogecoin (DOGE) addresses.",
+  "license": "MIT",
+  "repository": "k4m4/dogecoin-regex",
+  "author": {
+    "name": "Nikolaos Kamarinakis",
+    "url": "nikolaskama.me",
+    "email": "nikolaskam@gmail.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "dogecoin",
+    "address",
+    "regex"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "ava": "*"
+  }
+}
