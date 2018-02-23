@@ -28,7 +28,6 @@ test('Non-exact DOGE addresses', t => {
 	for (const x of fixtures) {
 		t.is((m().exec(`foo ${x} bar`) || [])[0], x);
 	}
-	
 	t.is(m().exec('dogecoin:DANHz6EQVoWyZ9rER56DwTXHWUxfkv9k2o')[0], 'DANHz6EQVoWyZ9rER56DwTXHWUxfkv9k2o');
 });
 
