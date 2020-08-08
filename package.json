@@ -1,6 +1,6 @@
 {
   "name": "dogecoin-regex",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Regular expression for matching Dogecoin (DOGE) addresses.",
   "license": "MIT",
   "repository": "k4m4/dogecoin-regex",
